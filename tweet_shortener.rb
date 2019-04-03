@@ -2,8 +2,11 @@
 def word_substituter(tweet)
   dictionary =
     {"hello" => 'hi',
-      "to"||"two"||"too" => '2',
-      "for"||"four" => '4',
+      "to"=> '2',
+      "two"=> '2',
+      "too" => '2',
+      "for"=>'4',
+      "four" => '4',
       'be' => 'b',
       'you' => 'u',
       "at" => "@",
