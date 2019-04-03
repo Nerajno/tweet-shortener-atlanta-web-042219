@@ -32,3 +32,11 @@ def bulk_tweet_shortener(array)
      puts word_substituter(each_tweet)
    end
 end
+
+def tweet_shortener(tweet)
+  if tweet.length <=139
+    twt_len =tweet.length
+  elsif twt_len >140
+    tweet[0...twt_len]
+  end
+end
